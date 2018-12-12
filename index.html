@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Test</title>
+    <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("t.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
   <body>
- <img src="t.jpg" style="width:100%; height:auto; margin:0 auto;" alt="nice"> 
+    <div class="bg"></div>
   </body>
 </head>
 </html>
